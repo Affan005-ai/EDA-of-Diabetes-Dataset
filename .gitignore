@@ -1,0 +1,18 @@
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore dataset files (too large for GitHub, share via Kaggle/Drive instead)
+*.csv
+*.xlsx
+*.json
+*.parquet
+
+# Ignore virtual environment
+venv/
+.env/
+__pycache__/
+*.pyc
+
+# Ignore OS files
+.DS_Store
+Thumbs.db
